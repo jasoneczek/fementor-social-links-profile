@@ -1,0 +1,61 @@
+:root {
+  /* colors */
+  --clr-primary-green: hsl(75, 94%, 57%);
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-grey: hsl(0, 0%, 20%);
+  --clr-dark-grey: hsl(0, 0%, 12%);
+  --clr-off-black: hsl(0, 0%, 8%);
+  --clr-bg-body: var(--clr-off-black);
+  --clr-bg-card: var(--clr-dark-grey);
+  --clr-bg-btn: var(--clr-grey);
+  --clr-btn-hover: var(--clr-primary-green);
+  --clr-card-title: var(--clr-primary-green);
+  --clr-card-text: var(--clr-white);
+  /* typography */
+  --fs-base: 0.875rem;
+  --fs-heading: 1.5rem;
+  --fw-reg: 400;
+  --fw-semibold: 500;
+  --fw-bold: 700;
+  /* spacing */
+  --min-card-padding: 1.5rem;
+  --max-card-padding: 2.5rem;
+}
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, sans-serif;
+  font-size: var(--fs-base);
+  background-color: var(--clr-bg-body);
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.1;
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
