@@ -75,6 +75,14 @@ body {
   min-height: 100svh;
 }
 
+main {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -165,10 +173,13 @@ a:hover {
 
 .footer {
   text-align: center;
-  position: fixed;
-  bottom: 0;
-  padding: 0.5rem;
+  padding-bottom: 1rem;
   color: var(--clr-grey);
+  margin-top: auto;
+}
+
+.attribution {
+  margin: 0;
 }
 
 .footer a {
