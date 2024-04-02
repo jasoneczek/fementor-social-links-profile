@@ -75,14 +75,6 @@ body {
   min-height: 100svh;
 }
 
-main {
-  flex-grow: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem 0;
-}
-
 ul {
   list-style: none;
   padding: 0;
@@ -108,6 +100,7 @@ a:hover {
   border-radius: 0.75rem;
   width: var(--card-width);
   padding: var(--card-padding);
+  margin: 1rem auto;
 }
 
 .card__img {
@@ -175,7 +168,6 @@ a:hover {
   text-align: center;
   padding-bottom: 1rem;
   color: var(--clr-grey);
-  margin-top: auto;
 }
 
 .attribution {
